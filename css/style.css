@@ -85,6 +85,7 @@ button:focus {
     .header{
         flex-direction: row;
         justify-content: space-between;
+        height: 10rem;
     }
 
     .header-name{
@@ -96,7 +97,7 @@ button:focus {
     }
 
     .contact{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -202,9 +203,9 @@ button:focus {
 }
 
 @media screen and (min-width: 768px) {
-.body{
-    height: 100vh;
-}
+    .body{
+        height: 100vh;
+    }
 
     .main{
         flex-direction: row;

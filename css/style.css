@@ -105,3 +105,11 @@ button:focus {
 .place{
     color: var(--place-color);
 }
+
+/* INFO */
+
+/* MENU DEROULANT */
+
+.pref{
+    display: none;
+}

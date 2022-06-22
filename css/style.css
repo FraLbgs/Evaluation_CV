@@ -82,7 +82,19 @@ button:focus {
 @media screen and (min-width: 768px) {
     .header{
         flex-direction: row;
-        /* justify-content: space-between; */
+        justify-content: space-between;
+    }
+
+    .header-name{
+        font-size: 2.5rem;
+    }
+
+    .header-ttl{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        font-size: 1.2rem;
     }
 }
 
@@ -191,5 +203,7 @@ button:focus {
     
     .info-container{
         display: block;
+        position: relative;
+        top: 100px;
     }
 }

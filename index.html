@@ -34,7 +34,7 @@
 
     <main class="main">
         <div class="knowledge">
-            <section class="section skills">
+            <section class="section" id="skills">
                 <h3 class="section-ttl">Compétences</h3>
                 <ul class="skills-list">
                     <li class="section-item bold skills-item">- Créer un site web statique et dynamique qui soit responsive (HTML, CSS
@@ -47,7 +47,7 @@
                 </ul>
             </section>
 
-            <section class="section experience">
+            <section class="section" id="experience">
                 <h3 class="section-ttl">Expériences professionnelles</h3>
                 <ul class="exp-list">
                     <li class="section-item exp-item"><span class="bold">Assistant comptable</span> <a class="place" href="https://www.societe.com/societe/lerick-colibert-haussetete-505332288.html">Cabinet Lerick Colibert Haussetete</a> Le Havre<br>
@@ -65,7 +65,7 @@
                 </ul>
             </section>
 
-            <section class="section formation">
+            <section class="section" id="formation">
                 <h3 class="section-ttl">Diplômes et Formations</h3>
                 <ul class="forma-list">
                     <li class="section-item forma-item"><span class="bold">Developpeur web et Web Mobile</span> <a href="https://www.afpa.fr/centre/centre-du-havre" class="place">Afpa</a> Le Havre<br>
@@ -83,13 +83,13 @@
         <div class="infos" id="infos">
             <div class="pref">
                 <label class="label">Choisissez l'ordre d'affichage :</label>
-                <select class="select">
-                    <option>Compétences - Expériences - Diplômes</option>
-                    <option>Compétences - Diplômes - Expériences</option>
-                    <option>Expériences - Compétences - Diplômes</option>
-                    <option>Expériences - Diplômes - Compétences</option>
-                    <option>Diplômes - Compétences - Expériences</option>
-                    <option>Diplômes - Expériences - Compétences</option>
+                <select class="select" id="select">
+                    <option class="option" id="order1">Compétences - Expériences - Diplômes</option>
+                    <option class="option" id="order2">Compétences - Diplômes - Expériences</option>
+                    <option class="option" id="order3">Expériences - Compétences - Diplômes</option>
+                    <option class="option" id="order4">Expériences - Diplômes - Compétences</option>
+                    <option class="option" id="order5">Diplômes - Compétences - Expériences</option>
+                    <option class="option" id="order6">Diplômes - Expériences - Compétences</option>
                 </select>
             </div>
             

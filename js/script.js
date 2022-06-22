@@ -1,3 +1,5 @@
+// MODAL
+
 const btnList = document.querySelectorAll(".info-btn");
 
 function createModal() {
@@ -24,3 +26,47 @@ for(const btn of btnList){
         modalContent.innerHTML += content;
     });
 }
+
+// DROP DOWN LIST
+
+const comp = document.getElementById("skills");
+const exp = document.getElementById("experience");
+const form = document.getElementById("formation");
+const select = document.getElementById("select")
+const optList = document.querySelectorAll("option");
+
+    select.addEventListener("change", function(e){
+        const opt = this.selectedIndex;
+        if(opt === 0){
+            comp.style.order = 1;
+            exp.style.order = 2;
+            form.style.order = 3;
+        }
+        else if(opt === 1){
+            comp.style.order = 1;
+            exp.style.order = 3;
+            form.style.order = 2;
+        }
+        if(opt === 2){
+            comp.style.order = 2;
+            exp.style.order = 1;
+            form.style.order = 3;
+        }
+        if(opt === 3){
+            comp.style.order = 3;
+            exp.style.order = 1;
+            form.style.order = 2;
+        }
+        if(opt === 4){
+            comp.style.order = 2;
+            exp.style.order = 3;
+            form.style.order = 1;
+        }
+        if(opt === 5){
+            comp.style.order = 3;
+            exp.style.order = 2;
+            form.style.order = 1;
+        }
+        
+    })
+

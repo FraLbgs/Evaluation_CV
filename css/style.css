@@ -19,6 +19,7 @@
 body {
     margin: 0;
     max-width: 1000px;
+    height: 100vh;
     margin: auto;
     border: 1px solid var(--primary-color);
 }
@@ -208,6 +209,8 @@ button:focus {
     }
 
     .knowledge{
+        display: flex;
+        flex-direction: column;
         width: 70%;
     }
 

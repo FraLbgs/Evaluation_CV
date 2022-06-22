@@ -113,3 +113,27 @@ button:focus {
 .pref{
     display: none;
 }
+
+.info-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    /* gap : 1rem; */
+}
+
+.info-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--section-ttl-color);
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+
+.info-btn{
+    font-weight: bold;
+    font-size: 2rem;
+}

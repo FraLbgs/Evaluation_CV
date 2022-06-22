@@ -5,6 +5,8 @@
     /* Colors */
     --primary-color: #406b8c;
     --secondary-color: #c7c7c7;
+    --section-ttl-color: #4D8EA5;
+    --place-color: #868A8C;
 }
 
 
@@ -50,6 +52,8 @@ button:focus {
     outline: none;
 }
 
+/* HEADER */
+
 .header{
     display: flex;
     flex-direction: column;
@@ -71,4 +75,33 @@ button:focus {
 .contact{
     color: var(--secondary-color);
     font-size: 1.5rem;
+}
+
+/* MAIN */
+
+/* KNOWLEDGE */
+
+.section{
+    padding: 1rem;
+}
+
+.section-ttl{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--section-ttl-color);
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--section-ttl-color);
+}
+
+.section-item{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.section-item-ttl{
+    font-weight: bold;
+}
+
+.place{
+    color: var(--place-color);
 }
